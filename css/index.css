@@ -1,0 +1,227 @@
+a:hover {
+	color: #f1025d;
+}
+/* 商品导航部分 */
+.ad {
+	width: 250px;
+	height: 480px;
+	position: absolute;
+	top: 0;
+	left: -250px;
+}
+.ad-right {
+	position: absolute;
+	top: 0;
+	left: 250px;
+	z-index: 999;
+	background: url('../images/ad-r.jpg');
+	width: 0;
+	height: 480px;
+	transition: all .8s;
+}
+.ad:hover .ad-right {
+	width: 990px;
+}
+.produce {
+	height: 480px;
+}
+.left-produce {
+	height: 100%;
+	width: 190px;
+	float: left;
+	background-color: #fefefe;
+	margin-top: 5px;
+	position: relative;
+}
+.left-produce span {
+	color: #c3c0c0;
+}
+.left-produce li:first-child {
+	margin-top: 10px;
+}
+.left-produce li {
+	padding-left: 16px;
+}
+.left-produce li a {
+	font-size: 14px;
+}
+.left-produce li:hover {
+	background-color: #dbdadd;
+}
+.left-produce li a:hover {
+	color: #f10215;
+}
+.center-produce {
+	width: 790px;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	background-color: #fff;
+	margin-top: 5px;
+}
+.right-produce {
+	width: 190px;
+	height: 100%;
+	float: right;
+}
+.left-small {
+	float: left;
+	margin-top: 10px;
+}
+.right-small {
+	float: right;
+	margin-top: 10px;
+}
+.sowing-map {
+	position: relative;
+}
+/* 轮播图箭头部分 */
+.arrow-l,
+.arrow-r {
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, .3);
+	transform: translateY(-50%);
+	font-family: 'icomoon';
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+}
+.arrow-l {
+	left: 0;
+	padding-left: 5px;
+	width: 25px;
+}
+.arrow-r {
+	right: 0;
+}
+.circle {
+	width: 175px;
+	height: 25px;
+	position: absolute;
+	bottom: 20px;
+	background: rgba(0, 0, 0, .2);
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+}
+.circle li {
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	float: left;
+	margin-top: 7px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.circle .current {
+	background-color: #f10215;
+}
+.right-produce {
+	margin-top: 5px;
+}
+.login {
+	height: 85px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	background-color: #fff;
+}
+.login-top {
+	width: 95px;
+	font-size: 14px;
+	color: #8c8c8c;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 60px;
+	position: relative;
+}
+.user {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+}
+.user img {
+	width: 100%;
+	border-radius: 50%;
+}
+.login-bottom a {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	border: 2px solid #f10215;
+	line-height: 20px;
+	text-align: center;
+}
+.login-bottom a:hover {
+	background-color: #f10215;
+	color: #fff;
+}
+.news {
+	height: 154px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+	padding: 7px 13px;
+	box-sizing: border-box;
+	position: relative;
+}
+.news-top {
+	border-bottom: 1px solid #ccc;
+}
+.news-top span {
+	color: #ccc;
+	margin-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+.news-top a:first-child {
+	float: left;
+}
+.news-top a:nth-child(2) {
+	float: left;
+}
+.news .news-top a:last-child {
+	float: right;
+}
+.news-top a:first-child {
+	border-bottom: 1px solid #f10215;
+}
+.news-bottom ul a {
+	font-size: 12px;
+	margin-left: 0;
+}
+.expand {
+	height: 209px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.expand ul {
+	width: 192px;
+}
+.expand li {
+	width: 47px;
+	height: 69px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.expand li a {
+	display: block;
+	padding-top: 15px;
+	text-align: center;
+}
+.expand li i {
+	display: block;
+	width: 18px;
+	height: 23px;
+	margin: 0 auto;
+	background: url('../images/sprite_fs@1x.png') no-repeat;
+	background-position: -5px -88px;
+}
